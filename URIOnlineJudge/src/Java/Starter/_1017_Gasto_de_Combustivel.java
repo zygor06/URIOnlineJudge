@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class GastoDeCombustivel1017{
+public class _1017_Gasto_de_Combustivel{
 
 	public static void main(String[] args) throws IOException{
 	

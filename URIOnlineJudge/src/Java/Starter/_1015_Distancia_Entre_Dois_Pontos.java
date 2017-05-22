@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class DistanciaEntreDoisPontos1015 {
+public class _1015_Distancia_Entre_Dois_Pontos {
 
 	public static void main(String[] args) throws IOException{
 	

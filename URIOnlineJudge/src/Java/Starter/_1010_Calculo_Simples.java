@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class CalculoSimples1010 {
+public class _1010_Calculo_Simples {
 
 	public static void main(String[] args) throws IOException{
 	

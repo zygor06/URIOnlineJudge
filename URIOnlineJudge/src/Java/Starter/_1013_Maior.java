@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Maior1013 {
+public class _1013_Maior {
 
 	public static void main(String[] args) throws IOException{
 	

@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Area1012 {
+public class _1012_Area {
 
 	public static void main(String[] args) throws IOException{
 	
