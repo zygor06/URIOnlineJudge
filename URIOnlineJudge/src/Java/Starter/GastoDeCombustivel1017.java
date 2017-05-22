@@ -1,10 +1,10 @@
-package Starter;
+package Java.Starter;
 
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Distancia1016{
+public class GastoDeCombustivel1017{
 
 	public static void main(String[] args) throws IOException{
 	
@@ -12,11 +12,12 @@ public class Distancia1016{
 		
 		Scanner leitor = new Scanner(System.in);
 
-		int dist = leitor.nextInt();
+		double tempoGasto = leitor.nextDouble();
+		double velocidadeMedia = leitor.nextDouble();
+
+		double qntGasolina = (tempoGasto * velocidadeMedia) / 12;
 		
-		dist *= 2;
-		
-		System.out.printf("%d minutos\n", dist);		
+		System.out.printf("%.3f\n", qntGasolina);		
 
 		leitor.close();
 	}

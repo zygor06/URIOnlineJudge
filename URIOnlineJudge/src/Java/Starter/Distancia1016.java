@@ -1,23 +1,22 @@
-package Starter;
+package Java.Starter;
 
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Consumo1014 {
+public class Distancia1016{
 
 	public static void main(String[] args) throws IOException{
 	
 		Locale.setDefault(Locale.US);
 		
 		Scanner leitor = new Scanner(System.in);
+
+		int dist = leitor.nextInt();
 		
-		int x = leitor.nextInt();
-		double y = leitor.nextDouble();
+		dist *= 2;
 		
-		double consumo = x / y;
-		
-		System.out.printf("%.3f km/l\n", consumo);		
+		System.out.printf("%d minutos\n", dist);		
 
 		leitor.close();
 	}

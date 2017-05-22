@@ -1,10 +1,10 @@
-package Starter;
+package Java.Starter;
 
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Esfera1011 {
+public class Consumo1014 {
 
 	public static void main(String[] args) throws IOException{
 	
@@ -12,11 +12,12 @@ public class Esfera1011 {
 		
 		Scanner leitor = new Scanner(System.in);
 		
-		double raio = leitor.nextDouble();
-		double pi = 3.14159;		
-		double volume = (4.0 / 3) * pi * (raio * raio * raio);
+		int x = leitor.nextInt();
+		double y = leitor.nextDouble();
 		
-		System.out.printf("VOLUME = %.3f", volume);		
+		double consumo = x / y;
+		
+		System.out.printf("%.3f km/l\n", consumo);		
 
 		leitor.close();
 	}
